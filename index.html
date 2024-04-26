@@ -1,36 +1,70 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tarjetita</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <div class="conteiner">
         <article class="tarjetita">
-            <div class="encabesado">ESCABESADO</div>
-            <div class="producto">
+            <div class="encabesado">
+                <div class="iconos flex ">
+                    <i class="fa-solid fa-cart-shopping negro"></i>
+                </div>
+                <img src="img/Remera_lisa.jpg" alt="Remera" class="imagen_prod" width="100%">
+                <div class="iconos flex">
+                    <i class="fa-solid fa-cart-plus"></i>
+                </div>
 
+            </div>
+
+            <div class="producto">
                 <ul class="sel_colores">
                     <li class="negro"></li>
                     <li class="rojo"></li>
                     <li class="verde"></li>
                 </ul>
-                <span class="presio">$12 </samp>
-                <samp class="talles">
+                <span>Remeras Lisas</span>
+
+                <span class="presio">$12 </span>
+                <ul class="talles">
                     <li>s</li>
                     <li>m</li>
                     <li>l</li>
                     <li>xl</li>
                     <li>xxl</li>
-                 </samp>
+                </ul>
             </div>
-            <div class="despor">DESCRIPCION PORDUCTO</div>
-            <div class="botonera">BOTON</div>
-            
+            <!-- <input type="search" list="talles">
+            <datalist id="talles">
+                <option value="S">schiquito</option>
+                <option value="M">Medio</option>
+                <option value="L">Largo</option>
+                <option value="XL">Muy Largo</option>
+
+            </datalist> -->
+
+
+            <div class="despor">
+                <h3>DESCRIPCION PORDUCTO</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis nesciunt saepe illum reprehenderit commodi qui voluptates! </p>
+                 <div class="botonera">
+                <button type="button">Agregar al
+                        carrito</button>
+                    </div>
+            </div>
+
+
 
         </article>
     </div>
 </body>
+
 </html>
